@@ -1,0 +1,6 @@
+# Installation des outils de base
+npm install axios react-router-dom
+
+# Installation de Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
