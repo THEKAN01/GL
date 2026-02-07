@@ -3,7 +3,6 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from '../components/layout/MainLayout';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-import Properties from '../pages/Properties';
 import PropertyDetail from '../pages/PropertyDetail';
 import Dashboard from '../pages/Dashboard';
 import AddProperty from '../pages/AddProperty';
@@ -24,7 +23,6 @@ export default function AppRoutes() {
       {/* Routes avec Navbar et Footer */}
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/properties" element={<Properties />} />
         <Route path="/property/:id" element={<PropertyDetail />} />
         <Route path="/login" element={<Login />} />
         
