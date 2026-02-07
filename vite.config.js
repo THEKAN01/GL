@@ -11,4 +11,4 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Le dossier qui sera généré pour le déploiement
   }
-})s
+})
