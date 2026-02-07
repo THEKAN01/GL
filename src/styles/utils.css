@@ -1,0 +1,16 @@
+/* src/styles/utils.css */
+
+/* Effet de glassmorphism pour la Navbar et les filtres */
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-soft;
+}
+
+/* Skeleton animation pour les réseaux lents */
+.skeleton {
+  @apply bg-slate-200 animate-pulse rounded-md;
+}
+
+/* Image overlay pour les cartes de biens */
+.img-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%);
+}
