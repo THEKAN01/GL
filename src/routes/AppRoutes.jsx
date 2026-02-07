@@ -3,7 +3,6 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from '../components/layout/MainLayout';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-import Register from '../pages/Register';
 import Properties from '../pages/Properties';
 import PropertyDetail from '../pages/PropertyDetail';
 import Dashboard from '../pages/Dashboard';
@@ -28,7 +27,7 @@ export default function AppRoutes() {
         <Route path="/properties" element={<Properties />} />
         <Route path="/property/:id" element={<PropertyDetail />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        
 
         {/* Routes Protégées (nécessitent d'être connecté) */}
         <Route 
